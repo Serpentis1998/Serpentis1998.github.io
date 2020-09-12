@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>sdds</title>
+        <style>
+            .bg0
+            {    
+                width: 318px; 
+                height: 113px;/* 设置的div框的宽高*/
+                background: url(bg.gif) no-repeat;
+                background-color: green;  /* 加在url(img/demo.jpg)后面，这个颜色才有效，加在前面设置这个颜色属性无效*/
+            
+            }
+            /* 图片自适应大小 */
+            .bg1
+            {
+                width: 500px;
+                height: 300px; /* 设置的div框的宽高*/
+                background: url(img/demo.jpg) no-repeat;
+                 /* 以父元素的百分比来设置背景图像的宽度和高度。*/
+                background-size: 100% 100%;
+            }
+        </style>
+    </head>
+
+<body>
+    <div class="bg0"></div>
+    <div class="bg1"></div>
+</body>
+</html>

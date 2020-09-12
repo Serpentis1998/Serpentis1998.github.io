@@ -1,0 +1,16 @@
+.imgbox{
+    position: relative;
+    width: 240px;
+    height: 240px;
+}
+.imgbox img{
+    position: absolute;
+    top: -10;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: middle;
+    max-width: 60%;
+    max-height: 60%;
+    outline: 0px solid #000;
+}
